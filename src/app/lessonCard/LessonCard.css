@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+.lessonCard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1auto);
+  gap: 10px;
+  width: 600px;
+}
+
+.lessonImage {
+  width: 60%;
+  height: 135px;
+  object-fit: cover;
+  align-self: center;
+}
+
+.ResumeButton {
+  border: solid 2px;
+  border-radius: 15px;
+  border-color: black;
+  margin-top: 10px;
+  font-size: x-large;
+  display: flex;
+  align-self: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.lesson {
+  display: flex;
+  flex-direction: column;
+  border: solid 4px;
+  border-radius: 15px;
+  gap: 10px;
+  padding: 5px;
+}
+
+.title {
+  align-self: center;
+  font-size: x-large;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+

@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.homepage {
+  display: flex;
+  height: 100vh;
+  width: 100vh;
+}
+
+.TabsBar {
+  align-content: left;
+  border: solid 3px;
+  border-radius: 20px;
+  fill-opacity: 1;
+  border-width: 5mm;
+}
+
+.ButtonContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(217, 217, 217);
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border-radius: 15px;
+  gap: 10px;
+  padding: 5px;
+}
+
+.settingsImage {
+  border-radius: 100px;
+  border: solid 2px;
+}
+
+.SettingsImageButton {
+  display: flex;
+  border-radius: 100px;
+  border: black 0px;
+}
+
+.ProfilePictureButton {
+  height: 10mm;
+  width: 10mm;
+  border-radius: 100px;
+  border: solid 2px;
+}
+
+.NameButton {
+  font-size: x-large;
+  border: solid 2px;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100px;
+  text-align: center;
+}
+
+.navigationContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(217, 217, 217);
+  align-items: center;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  border-radius: 15px;
+  gap: 10px;
+  padding: 5px;
+  height: 95vh;
+}
+
+.navButtons {
+  border: solid 2px;
+  border-radius: 15px;
+  font-size: x-large;
+  width: 150px;
+  background-color: white;
+}
+
+button:hover {
+  border: solid black 3px;
+}
+
+.lessons {
+  display: flex;
+  position: absolute;
+  left: 400px;
+  justify-content: center;
+}
