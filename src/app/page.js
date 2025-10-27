@@ -1,3 +1,43 @@
+'use client';
+
+import Link from 'next/link'
+import LessonLinks from "./lessonCard/page";
+import "./globals.css";
+import Image from 'next/image';
+
+export default function Home(){
+    return(
+        <div className="homepage">
+            {/* <div className="ButtonContainer">
+                <button className="NameButton">Name</button >
+                <button className="ProfilePictureButton"></button>
+                <Link href="/settingsPage">
+                    <button className="SettingsImageButton"><Image className="settingsImage" src="/images/settingsimage.webp" alt='settings image' height={50} width={50} /></button>
+                </Link>
+            </div> */}
+            <div className="navigationContainer">
+                <Link href="/realTimeStocksPage">
+                    <button className="navButtons">Real Time Stocks</button>    
+                </Link>
+                <Link href="/newsPage">
+                    <button className="navButtons">News</button>
+                </Link>
+                <Link href="/portfolioPage">
+                    <button className="navButtons">Portfolio</button>
+                </Link>
+                {/* <Link href="/practicePage">
+                    <button className="navButtons">Practice</button>
+                </Link> */}
+            </div>
+            <div className="lessons">
+                <LessonLinks />
+            </div>
+        </div>
+    )
+}
+
+
+
 // 'use client';
 // import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 // import Home from "./home";
@@ -33,42 +73,6 @@
 //     </Router>
 //   );
 // }
-
-'use client';
 // import { Link } from "react-router-dom";
-import Link from 'next/link'
-import LessonLinks from "./lessonCard/page";
-import "./globals.css";
-import Image from 'next/image';
 
-export default function Home(){
-    return(
-        <div className="homepage">
-            <div className="ButtonContainer">
-                <button className="NameButton">Name</button >
-                <button className="ProfilePictureButton"></button>
-                <Link href="/settingsPage">
-                    <button className="SettingsImageButton"><Image className="settingsImage" src="/images/settingsimage.webp" height={50} width={50} /></button>
-                </Link>
-            </div>
-            <div className="navigationContainer">
-                <Link href="/realTimeStocksPage">
-                    <button className="navButtons">Real Time Stocks</button>    
-                </Link>
-                <Link href="/newsPage">
-                    <button className="navButtons">News</button>
-                </Link>
-                <Link href="/portfolioPage">
-                    <button className="navButtons">Portfolio</button>
-                </Link>
-                <Link href="/practicePage">
-                    <button className="navButtons">Practice</button>
-                </Link>
-            </div>
-            <div className="lessons">
-                <LessonLinks />
-            </div>
-        </div>
-    )
-}
 

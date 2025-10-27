@@ -25,3 +25,59 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   cursor:pointer;
 }
+
+.header {
+  font-size: xx-large;
+  text-align: center;
+  font-weight: bold;
+}
+
+.bigBigContainer {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px; /* space between boxes */
+  margin-top: 20px;
+}
+
+.storyBox {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  background-color: #f9f9f9;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.storyBox:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.storyBox a {
+  font-weight: bold;
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.storyBox a:hover {
+  text-decoration: underline;
+}
+
+.storyBox p {
+  margin: 8px 0 4px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.storyBox small {
+  color: #888;
+  font-size: 0.8rem;
+}

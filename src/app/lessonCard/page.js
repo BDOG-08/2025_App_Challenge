@@ -21,7 +21,7 @@ export default function LessonLinks() {
       { name: "REIT", img: "https://th.bing.com/th/id/OIP.Axap0zBuHYU2HDTuM9qTIQHaE7?w=270&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3", link: "reitPage" },
       { name: "Crypto Currencies", img: "https://th.bing.com/th/id/OIP.-22BoK-eq92r680-dZY4HgHaEc?w=257&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3", link: "cryptoCurrencyPage" },
       { name: "ETF", img: "https://th.bing.com/th/id/OIP.wZNAHA8XyZJPr_ITMTfNxQHaEo?w=292&h=182&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3", link: "etfPage" },
-      { name: "How to spend money", img: "https://th.bing.com/th/id/OIP.EBRRoPgx7b6H9n4qC09mWQHaE8?w=250&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3", link: "howToSpendMoneyPage" },
+      { name: "Bonds", img: "https://th.bing.com/th/id/OIP.zBqAnSQV9H_tTrIWzNFSSAHaE7?w=303&h=201&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3", link: "bondsPage" },
   ];
 
   return (

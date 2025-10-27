@@ -110,9 +110,32 @@ export default function EtfPage(){
                             <h6 className='generalHeader'>
                                 Popular ETFs
                             </h6>
-                            <p className='generalParagraph'>
-
-                            </p>
+                            <ul className='generalParagraph'>
+                                <li className='generalBulletPoint'>
+                                        <b>SPDR S&P 500 (SPY)</b>: The oldest and most widely known ETF tracks the S&P 500.
+                                </li>
+                                <li className='generalBulletPoint'>
+                                        <b>Invesco QQQ (QQQ)</b>: Known as "cubes," it tracks the tech-heavy Nasdaq 100 Index.
+                                </li>
+                                <li className='generalBulletPoint'>
+                                        <b>SPDR Dow Jones Industrial Average (DIA)</b>: Known as "diamonds," it tracks the 30 stocks of the Dow Jones Industrial Average (DJIA).
+                                </li>
+                                <li className='generalBulletPoint'>
+                                        <b>Sector ETFs</b>: ETFs that track individual industries and sectors such as oil (OIH), energy (XLE), financial services (XLF), real 
+                                    estate investment trusts (IYR), and biotechnology (BBH).
+                                </li>
+                                <li className='generalBulletPoint'>
+                                        <b>Commodity ETFs</b>: These ETFs track commodities, including gold (GLD), silver (SLV), crude oil (USO), and natural gas (UNG).
+                                </li>
+                                <li className='generalBulletPoint'>
+                                        <b>Country ETFs</b>: Funds that track the primary stock indexes in foreign countries but are traded in the U.S. in dollars. Examples 
+                                    include China (MCHI), Brazil (EWZ), Japan (EWJ), and Israel (EIS). Others track foreign markets across multiple countries, such as 
+                                    emerging market economies (EEM) and developed market economies (EFA).
+                                </li>
+                                <li className='generalBulletPoint'>
+                                        <b>iShares Russell 2000 (IWM)</b>: An ETF that tracks the Russell 2000 small-cap index.
+                                </li>
+                            </ul>
                         </div>
                         <div className='generalColumn'>
                             <h7 className='generalHeader'>
@@ -133,15 +156,34 @@ export default function EtfPage(){
                                 Creation and Redemption
                             </h8>
                             <p className='generalParagraph'>
-
+                                    The supply of ETF shares is regulated through creation and redemption, which involves large specialized 
+                                investors called authorized participants (APs). When an ETF manager wants to issue additional shares, the AP 
+                                buys shares of the stocks from the index—such as the S&P 500 tracked by the fund—and sells or exchanges them 
+                                to the ETF for new ETF shares at an equal value. In turn, the AP sells the ETF shares in the market for a 
+                                profit.
+                            </p>
+                            <p className='generalParagraph'>
+                                    When an AP sells stocks to the ETF sponsor in return for shares in the ETF, the block of shares used in the 
+                                transaction is called a creation unit. If an ETF closes with a share price of $101 and the value of the stocks 
+                                that the ETF owns is only worth $100 on a per-share basis, then the fund’s price of $101 was traded at a premium 
+                                to the fund’s net asset value (NAV). The NAV is an accounting mechanism that determines the overall value of the 
+                                assets or stocks in an ETF.
+                            </p>
+                            <p className='generalParagraph'>
+                                    An AP also buys shares of the ETF on the open market. The AP then sells these shares back to the ETF sponsor in 
+                                exchange for individual stock shares that the AP can sell on the open market. As a result, the number of ETF shares 
+                                is reduced through the process called redemption. The amount of redemption and creation activity is a function of 
+                                demand in the market and whether the ETF is trading at a discount or premium to the value of the fund’s assets.
                             </p>
                         </div>
                         <div className='generalColumn'>
                             <h9 className='generalHeader'>
-                                Fun facts
+                                What was the first ever ETF?
                             </h9>
                             <p className='generalParagraph'>
-
+                                    The distinction of being the first exchange-traded fund is often given to the SPDR S&P 500 ETF (SPY), launched by 
+                                State Street Global Advisors on Jan. 22, 1993. There were, however, some precursors to SPY, including Index Participation 
+                                Units listed on the Toronto Stock Exchange (TSX), which tracked the Toronto 35 Index and appeared in 1990.
                             </p>
                         </div>
                     </div>

@@ -63,3 +63,12 @@ body {
   text-indent: 10mm;
   font-size: medium;
 }
+
+.generalList {
+  list-style-type: circle;
+  padding-left: 1.5rem;
+  margin: 1rem 0; 
+  font-family: 'Courier New', Courier, monospace;
+  text-indent: 10mm;
+  font-size: medium;
+}
