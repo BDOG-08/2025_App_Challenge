@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import { useState, useEffect, useMemo } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
+import "./RealTimeStocksPage.css";
 
 export default function RealTimeStocksPage({ params }) {
   const [data, setData] = useState(null);

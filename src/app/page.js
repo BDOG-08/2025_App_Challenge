@@ -22,15 +22,18 @@ export default function Home(){
                 <Link href="/newsPage">
                     <button className="navButtons">News</button>
                 </Link>
-                <Link href="/portfolioPage">
+                {/* <Link href="/portfolioPage">
                     <button className="navButtons">Portfolio</button>
-                </Link>
+                </Link> */}
                 {/* <Link href="/practicePage">
                     <button className="navButtons">Practice</button>
                 </Link> */}
             </div>
             <div className="lessons">
                 <LessonLinks />
+            </div>
+            <div>
+                <Image src="/images/investingMadeEasy.jpg" width={100} height={100} className='logo'></Image>
             </div>
         </div>
     )

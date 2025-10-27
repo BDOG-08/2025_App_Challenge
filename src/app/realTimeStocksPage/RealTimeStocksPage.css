@@ -32,12 +32,24 @@ body {
 }
 
 .sector1 {
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-height: 100vh;
 }
 
 .mainHeader {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: xx-large;
-  font-weight: bold;
-  align-self: center;
+  font-size: x-large;
+}
+
+table , th , td {
+  border: 1px solid;
+}
+
+.inputSlot {
+  border: 1px solid;
+  max-width: fit-content;
+  border-radius: 5px;
 }

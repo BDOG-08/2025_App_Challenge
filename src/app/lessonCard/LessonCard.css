@@ -21,10 +21,10 @@ theme inline {
 
 .lessonCard {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1auto);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1auto);
   gap: 10px;
-  width: 600px;
+  width: 1100px;
 }
 
 .lessonImage {
@@ -41,7 +41,7 @@ theme inline {
   margin-top: 10px;
   font-size: x-large;
   display: flex;
-  align-self: center;
+  justify-self: center;
   padding-left: 10px;
   padding-right: 10px;
 }
