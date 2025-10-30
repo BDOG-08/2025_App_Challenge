@@ -8,7 +8,7 @@ function Lesson({ title, image, link }) {
       <h3 className="title">{title}</h3>
       <img className="lessonImage" src={image} alt={title} />
       <Link href={link}>
-        <button className="ResumeButton">Resume</button>
+        <button className="ResumeButton">Start</button>
       </Link>
     </div>
   );
